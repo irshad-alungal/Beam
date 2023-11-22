@@ -157,12 +157,12 @@ body {
 }
 
 ::selection {
-  background: #fa65b1;
+  background: #ed165a;
   color: #fff !important;
 }
 
 ::-moz-selection {
-  background: #fa65b1;
+  background: #ed165a;
   color: #fff !important;
 }
 
@@ -194,7 +194,7 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #726ae3;
+  color: #ed165a;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -209,20 +209,20 @@ body {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #726ae3;
+  color: #ed165a;
 }
 
 .section-heading .line-dec {
   width: 50px;
   height: 2px;
-  background-color: #726ae3;
+  background-color: #ed165a;
 }
 
 .border-first-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #fa65b1 !important;
-  border: 1px solid #fa65b1 !important;
+  color: #ed165a !important;
+  border: 1px solid #ed165a !important;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -230,7 +230,7 @@ body {
 }
 
 .border-first-button a:hover {
-  background-color: #fa65b1;
+  background-color: #ed165a;
   color: #fff !important;
 }
 
@@ -299,8 +299,8 @@ intro
 .intro-banner a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #fa65b1 !important;
-  border: 1px solid #fa65b1 !important;
+  color: #ed165a !important;
+  border: 1px solid #ed165a !important;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -310,7 +310,7 @@ intro
 }
 
 .intro-banner a:hover {
-  background-color: #fa65b1;
+  background-color: #ed165a;
   color: #fff !important;
 }
 
@@ -369,7 +369,7 @@ header
 }
 
 .pre-header ul.info li a:hover {
-  color: #fa65b1;
+  color: #0f0f0f;
 }
 
 .pre-header ul.info li a i {
@@ -418,7 +418,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fa65b1;
+  color: #ed165a;
 }
 
 .background-header .nav li a.active {
@@ -430,7 +430,7 @@ header
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: #fa65b1;
+  background-color: #ed165a;
   content: '';
   left: 50%;
   bottom: -20px;
@@ -537,12 +537,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fa65b1!important;
+  color: #ed165a!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fa65b1!important;
+  color: #ed165a!important;
   opacity: 1;
 }
 
@@ -604,7 +604,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fa65b1!important;
+  color: #ed165a!important;
   padding-left: 25px;
 }
 
@@ -744,7 +744,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fa65b1;
+  color: #ed165a;
 }
 
 @media (max-width: 1200px) {
@@ -783,7 +783,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #fa65b1!important;
+    color: #ed165a!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -845,7 +845,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fa65b1!important;
+    color: #ed165a!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -1084,6 +1084,7 @@ About Style
 .about-right-content p {
   margin-top: 30px;
   margin-bottom: 45px;
+  color: #0f0f0f;
 }
 
 .skills-content {
@@ -1142,11 +1143,11 @@ About Style
 }
 
 .first-skill-item .progress .progress-bar {
-  border-color: #fa65b1;
+  border-color: #ed165a;
 }
 
 .second-skill-item .progress .progress-bar {
-  border-color: #726ae3;
+  border-color: #ed165a;
 }
 
 .third-skill-item .progress .progress-bar {
@@ -1387,8 +1388,15 @@ Services Style
 
 .services .icon img {
   margin-bottom: 10px;
-  max-width: 60px;
-  min-width: 60px;
+  width: 30px;
+  height: 30px;
+}
+
+@media (min-width: 768px) {
+  .services .icon img {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 .services .naccs .menu {
@@ -1408,17 +1416,23 @@ Services Style
   position: relative;
   border-radius: 15px;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  background-color: #1e1e1e;
 }
 
 .services .naccs .menu div .thumb {
   display: inline-block;
   width: 100%;
   padding: 30px 0px;
-  background-color: #fff;
+  background-color: #ed165a;
 }
 
 .services .naccs .menu div.active {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 15px 10px 10px 15px rgba(255, 65, 65, 0.1);
+  background-color: #ffffff;
+  border: #ffffff;
+}
+.menu div.active .thumb {
+  color: #fff!important;
 }
 
 .services ul.nacc {
@@ -1486,11 +1500,12 @@ Services Style
 .services .left-text h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #fa65b1 !important;
+  color: #ed165a !important;
 }
 
 .services .left-text p {
   margin-bottom: 30px;
+  color: #0f0f0f;
 }
 
 .nacc .ticks-list span {
@@ -1503,6 +1518,141 @@ Services Style
 }
 
 
+/* 
+---------------------------------------------
+abouts Style
+--------------------------------------------- 
+*/
+
+.abouts {
+  padding-top: 130px;
+  position: relative;
+}
+
+.abouts  .section-heading p {
+  margin-top: 10px;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.abouts .container-fluid {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.abouts:after {
+  content: '';
+  background-image: url(../images/services-left-dec.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: -300px;
+  width: 261px;
+  height: 368px;
+  z-index: 0;
+}
+
+.abouts:before {
+  content: '';
+  background-image: url(../images/services-right-dec.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1136px;
+  height: 244px;
+  z-index: 0;
+}
+
+.abouts .section-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.abouts .section-heading .line-dec {
+  margin: 0 auto;
+}
+.abouts .section-heading p {
+  color: #3b3b3b;
+}
+
+.abouts-item {
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+  border-top-right-radius: 50px;
+}
+
+.abouts-item .icon {
+  margin-left: 0px;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.abouts-item h4 {
+  transition: all .3s;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.abouts-item p {
+  transition: all .3s;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #3b3b3b;
+}
+
+.abouts-item .text-button a {
+  color: #ed165a;
+}
+
+.abouts-item:hover h4,
+.abouts-item:hover p,
+.abouts-item:hover .text-button a {
+  color: #fff;
+}
+
+.first-abouts .icon {
+  background-image: url(../images/social-media.png);
+}
+
+.first-abouts:hover .icon {
+  background-image: url(../images/social-media\ 1.png);
+}
+
+.second-abouts .icon {
+  background-image: url(../images/design-thinking.png);
+}
+
+.second-abouts:hover .icon {
+  background-image: url(../images/design-thinking\ 1.png);
+}
+
+
+.third-abouts .icon {
+  background-image: url(../images/billboard.png);
+}
+
+.third-abouts:hover .icon {
+  background-image: url(../images/billboard\ 1.png);
+}
+
+.abouts-item:hover {
+  background-image: url(../images/service-bg.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
 
 /* 
 ---------------------------------------------
@@ -1511,11 +1661,11 @@ Free Quote
 */
 
 .free-quote {
-  background-image: url(../images/quote-bg.jpg);
+  background-image: url(../images/quote-bg-v2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 120px 0px;
+  padding: 50px 0px;
   text-align: center;
   position: relative;
   z-index: 2;
@@ -1523,7 +1673,6 @@ Free Quote
 }
 
 .free-quote .section-heading {
-  margin-bottom: 60px;
 }
 
 .free-quote .section-heading h6,
@@ -1572,7 +1721,7 @@ Free Quote
   outline: none;
   border: none;
   margin-left: 30px;
-  background-color: #726ae3;
+  background-color: #ed165a;
   font-size: 15px;
   color: #fff;
 }
@@ -1643,7 +1792,7 @@ Portfolio
 
 .portfolio-item:hover .down-content h4,
 .portfolio-item:hover .down-content span {
-  color: #fa65b1;
+  color: #ed165a;
 }
 
 .portfolio-item .thumb img {
@@ -1701,7 +1850,7 @@ Portfolio
 
 .our-portfolio .owl-nav span:hover {
   color: #fff;
-  background-color: #fa65b1;
+  background-color: #ed165a;
 }
 
 
@@ -1763,7 +1912,7 @@ Blog
   font-size: 15px;
   color: #fff;
   padding: 8px 12px;
-  background-color: #726ae3;
+  background-color: #ed165a;
   border-radius: 18px;
   display: inline-block;
 }
@@ -1836,7 +1985,7 @@ Blog
   font-size: 15px;
   color: #fff;
   padding: 8px 12px;
-  background-color: #726ae3;
+  background-color: #ed165a;
   border-radius: 18px;
   display: inline-block;
 }
@@ -1957,7 +2106,7 @@ form#contact #map iframe {
 }
 
 .fill-form .icon:hover a {
-  color: #fa65b1;
+  color: #ed165a;
 }
 
 form#contact input {
@@ -2005,20 +2154,20 @@ form#contact button {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #fa65b1;
+  color: #ed165a;
   margin-top: 30px;
   width: 100%;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: 1px solid #fa65b1;
+  border: 1px solid #ed165a;
   transition: all .3s;
   outline: none;
 }
 
 form#contact button:hover {
-  background-color: #fa65b1!important;
+  background-color: #ed165a!important;
   color: #fff!important;
 }
 
@@ -2029,10 +2178,7 @@ Footer Style
 */
 
 footer {
-  background-image: url(../images/footer-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #ed165a;
   margin-top: 130px;
 }
 
@@ -2136,6 +2282,10 @@ responsive
   form#contact {
     padding: 45px;
   }
+  .abouts .naccs .menu div {
+    font-size: 15px;
+    font-weight: 500;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2218,4 +2368,20 @@ responsive
   form#contact {
     padding: 30px;
   }
+  .abouts .naccs .menu div .thumb {
+    padding: 5px;
+  }
+  .abouts .icon img {
+    margin: 0px;
+  }
+  .abouts ul.nacc li.active {
+    padding: 45px;
+  }
+  .abouts .naccs .menu div  {
+    font-size: 0px;
+  }
+  .abouts ul.nacc li .right-image img {
+    float: none;
+  }
+  
 }
